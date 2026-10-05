@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: lightgray;
+}
+
+.main-box {
+  width: 90%;
+  max-width: 500px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 25px;
+  border: 2px solid gray;
+}
+
+h1 {
+  text-align: center;
+  color: darkblue;
+  margin-top: 0;
+}
+
+.intro {
+  text-align: center;
+  color: dimgray;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid gray;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: navy;
+}
+
+.clear-button {
+  background-color: gray;
+  margin-top: 10px;
+}
+
+.clear-button:hover {
+  background-color: dimgray;
+}
+
+.result-box {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid gray;
+  background-color: whitesmoke;
+  line-height: 1.5;
+}
+
+.formula-box {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: aliceblue;
+  border: 1px solid lightblue;
+}
+
+.formula-box h2 {
+  font-size: 18px;
+  margin-top: 0;
+  color: darkblue;
+}
+
+@media (max-width: 600px) {
+  .main-box {
+    margin-top: 15px;
+    padding: 18px;
+  }
+}
